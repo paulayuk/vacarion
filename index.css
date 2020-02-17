@@ -1,0 +1,51 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+.hero {
+  background: url('./assets/imgs/beach-bg.jpg') no-repeat;
+  height: 500px;
+}
+.floating-sub-hero {
+  bottom: -7%;
+  left: 10%;
+}
+.text-xxs {
+  font-size: 9px;
+}
+.dollar-sign {
+  top: 11px;
+  left: 11px;
+}
+.fill-blue {
+  fill: #3182ce;
+}
+.tour-card .image-section {
+  width: 200px;
+  height: 250px;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.slideshow .card {
+  width: 24%;
+  height: 300px;
+}
+.slideshow .card .overlay-text {
+  bottom: 20px;
+}
+.slideshow .card img {
+  object-fit: cover;
+  width: 100%;
+  filter: brightness(50%);
+}
+
+.travel-stories {
+  background: url('./assets/imgs/stories-bg.jpg') no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+#footer {
+  background-color: #13283a;
+}

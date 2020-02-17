@@ -1,0 +1,16 @@
+{
+  "name": "beach-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn run:css && parcel index.html",
+    "run:css": "npx tailwind build tailwind.css -o vendor.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "tailwindcss": "^1.1.4"
+  }
+}
